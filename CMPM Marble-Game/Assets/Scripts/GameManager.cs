@@ -119,15 +119,15 @@ public class GameManager : MonoBehaviour
         _checkpointCount++;
         
         // Change the tempo based on how many checkpoints we have reached
-        if (_checkpointCount < 2)
+        if (_checkpointCount == 1)
         {
             OSCHandler.Instance.SendMessageToClient("pd", "/unity/tempo", 500);
         }
-        else if (_checkpointCount < 4)
+        else if (_checkpointCount == 2)
         {
             OSCHandler.Instance.SendMessageToClient("pd", "/unity/tempo", 400);
         }
-        else if (_checkpointCount < 6)
+        else if (_checkpointCount == 3)
         {
             OSCHandler.Instance.SendMessageToClient("pd", "/unity/tempo", 300);
         }
