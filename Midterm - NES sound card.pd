@@ -1,4 +1,4 @@
-#N canvas 2637 448 1566 816 10;
+#N canvas 2637 448 1686 816 10;
 #X text 460 89 creation arguments are OSC address;
 #X text 462 50 set message to change OSC address;
 #X floatatom 326 6 5 0 0 0 - - - 0;
@@ -185,6 +185,9 @@
 #X text 117 449 ------->;
 #X text 517 177 Square Wave 2;
 #X text 977 154 White Noise;
+#X text 838 381 Start Here;
+#X text 959 253 Click Me;
+#X text 1359 283 TOGGLE;
 #X connect 2 0 24 0;
 #X connect 3 0 11 0;
 #X connect 3 1 16 0;
